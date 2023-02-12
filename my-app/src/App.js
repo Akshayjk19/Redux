@@ -4,12 +4,15 @@ import Secondpage from './Secondpage';
 import { Counter } from './Home';
 import Calci from './Calci';
 import AnotherFunction from './AnotherFunction';
+import IncreDecre from './IncreDecre';
 
 
 function App() {
   return (
     <div >
-  <Counter/>
+    <Counter/>
+  <IncreDecre/>
+
     
     <Secondpage/>
     <Calci/>
